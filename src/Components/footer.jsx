@@ -23,7 +23,6 @@ function Footer() {
 
             <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
 
-                {/* Column 1 */}
                 <div>
                     <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide">Our Services</h3>
                     <ul className="space-y-2 text-xs text-slate-600">
@@ -67,7 +66,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Column 2 */}
                 <div>
                     <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide">Our Policies</h3>
                     <ul className="space-y-2 text-xs text-slate-600">
@@ -105,7 +103,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Column 3 */}
                 <div>
                     <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide">Jewellery Knowledge</h3>
                     <ul className="space-y-2 text-xs text-slate-600">
@@ -155,7 +152,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Column 4 */}
                 <div>
                     <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide">About Us</h3>
                     <ul className="space-y-2 text-xs text-slate-600">
@@ -211,7 +207,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Column 5 */}
                 <div>
                     <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide">Get In Touch</h3>
 
@@ -256,26 +251,52 @@ function Footer() {
                             Download Our Application
                         </h3>
 
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="mt-8">
+                            <h3 className="text-[12px] font-semibold mb-3 uppercase tracking-[0.5px] text-slate-700">
+                                Download Our Application
+                            </h3>
 
-                            <a href="https://play.google.com/store"
-                                className="flex items-center gap-3 bg-black text-white px-4 py-3 rounded-xl w-56 shadow-md hover:shadow-lg hover:bg-gray-900 transition">
-                                <img src="/images/playstore.webp" className="h-6 w-6" />
-                                <div>
-                                    <div className="text-[10px] text-gray-300">GET IT ON</div>
-                                    <div className="text-sm font-semibold">Google Play</div>
-                                </div>
-                            </a>
+                            <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-8">
+                                <a
+                                    href="https://play.google.com/store"
+                                    className="flex items-center gap-4 bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-2xl w-[360px] sm:w-[460px] shadow-lg hover:shadow-xl transition-all duration-200 ring-1 ring-white/20"
+                                    aria-label="Get it on Google Play"
+                                >
+                                    <img
+                                        src="/images/playstore.webp"
+                                        alt="Google Play logo"
+                                        className="h-10 w-10 flex-shrink-0 object-contain"
+                                    />
+                                    <div className="flex flex-col text-left">
+                                        <span className="text-[11px] sm:text-xs text-gray-300 tracking-widest font-medium uppercase leading-tight whitespace-nowrap">
+                                            GET IT ON
+                                        </span>
+                                        <span className="text-lg sm:text-2xl font-semibold leading-tight whitespace-nowrap">
+                                            Google Play
+                                        </span>
+                                    </div>
+                                </a>
 
-                            <a href="https://apple.com/in/app-store"
-                                className="flex items-center gap-3 bg-black text-white px-4 py-3 rounded-xl w-56 shadow-md hover:shadow-lg hover:bg-gray-900 transition">
-                                <img src="/images/apple.png" className="h-6 w-6" />
-                                <div>
-                                    <div className="text-[10px] text-gray-300">Download on the</div>
-                                    <div className="text-sm font-semibold">App Store</div>
-                                </div>
-                            </a>
-
+                                <a
+                                    href="https://apple.com/in/app-store"
+                                    className="flex items-center gap-4 bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-2xl w-[360px] sm:w-[460px] shadow-lg hover:shadow-xl transition-all duration-200 ring-1 ring-white/20"
+                                    aria-label="Download on the App Store"
+                                >
+                                    <img
+                                        src="/images/apple.png"
+                                        alt="App Store logo"
+                                        className="h-10 w-10 flex-shrink-0 object-contain"
+                                    />
+                                    <div className="flex flex-col text-left">
+                                        <span className="text-[11px] sm:text-xs text-gray-300 tracking-widest font-medium uppercase leading-tight whitespace-nowrap">
+                                            DOWNLOAD ON THE
+                                        </span>
+                                        <span className="text-lg sm:text-2xl font-semibold leading-tight whitespace-nowrap">
+                                            App Store
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
