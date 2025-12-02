@@ -77,7 +77,7 @@ export default function HomeHighlights() {
                         />
 
                     </div>
-                    <div className=" relative w-[260px] h-[150px] hidden md:block">
+                    <div className=" relative w-[260px] h-[150px] hidden md:block md:mt-6">
                         <div className="absolute inset-y-0 left-0 z-10">
                             <div className="w-[13px] h-full bg-[linear-gradient(180deg,#012433_0%,#007A64_100%)] rounded-l-[10px]"></div>
                         </div>
