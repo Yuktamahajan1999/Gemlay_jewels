@@ -16,7 +16,7 @@ I recreated the UI from scratch, made it fully responsive, and focused on writin
 
 ## 🔗 Live Demo  
   
-👉 
+👉 gemlay-jewels-37zbl5iy0-yukta-mahajans-projects.vercel.app
 
 ---
 
