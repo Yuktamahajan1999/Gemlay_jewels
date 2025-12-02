@@ -1,16 +1,38 @@
-# React + Vite
+# Gemlay Jewels UI – React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I'm **Yukta Mahajan**, and this project is a React + Tailwind CSS implementation of the Gemlay Jewels Figma design.  
+I recreated the UI from scratch, made it fully responsive, and focused on writing clean and reusable components that match the original design closely.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ What I Built
+- Complete homepage UI based on the Figma screens  
+- Responsive design for desktop & mobile  
+- Sections like categories, trending products, best sellers, testimonials, press, and banners  
+- Login popup UI  
+- Component-based structure using React + Tailwind  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Live Demo  
+  
+👉 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 GitHub Repository  
+👉 https://github.com/Yuktamahajan1999/Gemlay_jewels
+
+---
+
+## 🛠️ Tech Used
+- **React.js**  
+- **Tailwind CSS**  
+- **JavaScript (ES6+)**  
+- **Figma Design**  
+
+---
+
+## 📞 Contact  
+If you'd like to connect or see more of my work:  
+**GitHub:** https://github.com/Yuktamahajan1999
