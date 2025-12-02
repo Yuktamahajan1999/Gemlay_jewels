@@ -28,18 +28,34 @@ export default function CollectionsSection() {
         </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        {collections.map((collection, index) => (
-          <Link key={index} to={collection.path}>
-            <div className="h-[220px] bg-[#FFF9F2] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
-              <img
-                src={collection.image}
-                alt={`Collection ${index + 1}`}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </Link>
-        ))}
+      <div className="max-w-7xl mx-auto">
+        <div className="hidden lg:grid grid-cols-3 gap-10">
+          {collections.map((collection, index) => (
+            <Link key={index} to={collection.path}>
+              <div className="h-[220px] bg-[#FFF9F2] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img
+                  src={collection.image}
+                  alt={`Collection ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="lg:hidden flex gap-4 overflow-x-auto pb-4">
+          {collections.map((collection, index) => (
+            <Link key={index} to={collection.path} className="flex-shrink-0 w-64">
+              <div className="h-[220px] bg-[#FFF9F2] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                <img
+                  src={collection.image}
+                  alt={`Collection ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       {/* DISCOVER ALL BUTTON */}
@@ -49,7 +65,7 @@ export default function CollectionsSection() {
           className="group relative px-12 py-4 bg-transparent border-2 border-[#007A64] text-[#007A64] rounded-full font-semibold tracking-wider hover:text-white transition-all duration-300 overflow-hidden"
         >
           <span className="absolute inset-0 bg-gradient-to-r from-[#004034] to-[#007A64] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-          
+
           <span className="relative z-10 flex items-center gap-3">
             DISCOVER ALL
             <span className="transform group-hover:translate-x-1 transition-transform duration-300">
